@@ -3,4 +3,4 @@ project(jpeg_compression)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(jpeg_compression main.cpp)
+add_executable(jpeg_compression main.cpp include/utility.hpp)
